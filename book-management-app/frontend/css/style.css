@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-card {
+    transition: transform 0.3s;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  #booksContainer {
+    min-height: 60vh;
+  }
+  
+  .book-cover {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
